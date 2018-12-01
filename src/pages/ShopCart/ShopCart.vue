@@ -50,6 +50,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  @import "../../common/stylus/mixins.styl"
   .shopCart
     width: 100%
     height: 100%
