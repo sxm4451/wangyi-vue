@@ -58,6 +58,7 @@
     width 100%
     height 100px
     display flex
+    border:  1px solid  #ccc
     .guide_item
       display flex
       flex 1
