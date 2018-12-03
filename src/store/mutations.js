@@ -2,7 +2,8 @@ import {
   RECEIVE_MSITE_DATA,
   RECEIVE_NAV_DATA,
   RECEIVE_TOPIC_DATA,
-  RECEIVE_SWIPER_DATA
+  RECEIVE_SWIPER_DATA,
+  RECEIVE_NAV_INDEX,
 }from './mutation-types'
 
 export default ({
@@ -18,4 +19,8 @@ export default ({
   [RECEIVE_SWIPER_DATA](state,{data}){
     state.SwiperData = data
   },
+  [RECEIVE_NAV_INDEX](state,{index}){
+    state.navIndex = index
+  },
+
 })

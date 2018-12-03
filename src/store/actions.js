@@ -8,7 +8,8 @@ import {
   RECEIVE_MSITE_DATA,
   RECEIVE_NAV_DATA,
   RECEIVE_TOPIC_DATA,
-  RECEIVE_SWIPER_DATA
+  RECEIVE_SWIPER_DATA,
+  RECEIVE_NAV_INDEX,
 }from './mutation-types'
 
 export default ({
@@ -47,4 +48,8 @@ export default ({
       typeof cb === 'function' && cb()
     }
   },
+  setNavIndex({commit}){
+    commit(RECEIVE_NAV_INDEX)
+  },
+
 })

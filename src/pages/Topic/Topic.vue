@@ -104,8 +104,12 @@
 .topic
   width:  100%
   .topic-header
+    position fixed
+    z-index 100
+    left 0
+    top 0
     width:  100%
-    height:   180px
+    height:   190px
     background: #F9F9F9
     .header-top
       width:  100%
@@ -164,7 +168,7 @@
 
   .topic-content
     width:  100%
-    height: 100%
+    margin-top:  180px
     .nav-img
       width:  100%
       display flex

@@ -1,6 +1,7 @@
 export default ({
   dataHome:{},
-  dataNav:{},
+  dataNav:[],
   dataTopic:{},
-  SwiperData:[]
+  SwiperData:[],
+  navIndex:0,
 })
